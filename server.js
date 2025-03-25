@@ -2,7 +2,7 @@ const express=require('express');
 const cors=require('cors');
 const mongoose=require('mongoose');
 const bodyParser=require('body-parser');
-const bcrypt=require('bcrypt');
+const bcrypt=require('bcryptjs');
 const connectionToDatabase=require('./mongoose');
 require('dotenv').config();
 
